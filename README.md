@@ -1,9 +1,7 @@
-# LED__test-by-asm
-تست سخت افزار خارجی به وسیله اسمبلی
-; this example shows how to access virtual ports (0 to 65535).
-; these ports are emulated in this file: ز:/....
+این پروژه یک مثال از چگونگی دسترسی به پورت های مجازی (0 تا 65535) با استفاده از زبان اسمبلی است. این پورت ها در این فایل شبیه سازی شده اند و امکان ساخت دستگاه های مجازی خارجی مانند نمایشگرهای LED، ربات ها، دماسنج ها و موتورهای پله ای را فراهم می کند.
 
-; this technology allows to make external add-on devices
-; for emu8086, such as led displays, robots, thermometers, stepper-motors, etc... etc...
-
-; anyone can create an animated virtual device.
+Main Function Points
+دسترسی به پورت های مجازی (0 تا 65535)
+امکان ساخت دستگاه های مجازی خارجی مانند نمایشگرهای LED، ربات ها، دماسنج ها و موتورهای پله ای
+Technology Stack
+زبان اسمبلی
